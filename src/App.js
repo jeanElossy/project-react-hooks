@@ -22,8 +22,11 @@ const App = () =>{
             <option value="location" >Location</option>
           </select>
         </div>
-      </div>
+      </div> 
+      git config --global user.email "jean.elossy@yahoo.com"
+      git config --global user.name "JeanElossy"
 
+      git push origin master
       <PetsList filter={filter} />
     </div>
   );
