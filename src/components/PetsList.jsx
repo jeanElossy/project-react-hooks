@@ -82,15 +82,15 @@ const handleClick = (id) => {
 useEffect(()=> {
   let newPets = [...pets];
   switch(filter) {
-    case "type" : newPets.sort((a, b) =>  ('' + a.type).localeCompare(b.type));
+    case "type" : newPets.sort((a, b) =>  (a.type).localeCompare(b.type));
       break;
-    case "location" : newPets.sort((a, b) =>('' + a.location).localeCompare(b.location))
+    case "location" : newPets.sort((a, b) => (a.location).localeCompare(b.location))
       break;
     default : setPets(newPets);
   }
-      
   setPets(newPets);
-}, [filter])
+}, [filter]) 
+
 
 
   return (

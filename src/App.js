@@ -23,10 +23,7 @@ const App = () =>{
           </select>
         </div>
       </div> 
-      git config --global user.email "jean.elossy@yahoo.com"
-      git config --global user.name "JeanElossy"
 
-      git push origin master
       <PetsList filter={filter} />
     </div>
   );
