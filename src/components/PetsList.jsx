@@ -91,8 +91,6 @@ useEffect(()=> {
   setPets(newPets);
 }, [filter]) 
 
-
-
   return (
     <div className="container">
       <div className="row">

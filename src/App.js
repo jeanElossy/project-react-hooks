@@ -14,7 +14,7 @@ const App = () =>{
   return (
     <div className="container">
 
-      <div className="row w-25 ms-1">
+      <div className="row w-25 ms-1 mt-3">
         <div className="col"> 
           <select className="form-select" aria-label="Default select example" onChange={handleFilter}>
             <option value="">Filtrer</option>
